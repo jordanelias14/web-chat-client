@@ -1,0 +1,33 @@
+.customize-header {
+    position: absolute;
+    top: 10px;
+    left: 5vw;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    width: 90vw;
+    height: 100px;
+    color: #ffffff;
+}
+
+label {
+    margin-left: 20px;
+}
+
+span {
+    color: #FE7800;
+}
+
+.name-header {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}

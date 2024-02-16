@@ -1,0 +1,44 @@
+button {
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 350px;
+}
+
+.btn-Entrar {
+    background-color: #ffffff;
+    color: #fe7800;
+}
+
+.btn-Entrar:hover {
+    background-color: #fe7800;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+.btn-Cadastrar {
+    background-color: #ffffff;
+    color: #fe7800;
+}
+
+.btn-Cadastrar:hover {
+    background-color: #15161b;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+.new-chat {
+    color: #ffffff;
+    background-color: #fe7800;
+}
+
+.new-chat:hover {
+    color: #fe7800;
+    background-color: #ffffff;
+    transition-duration: 0.4s;
+}

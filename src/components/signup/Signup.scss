@@ -1,0 +1,59 @@
+.signup-session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    background-color: #fe7800;
+    background: linear-gradient(148.74deg, #fe7800 -6.85%, #de3a06 80.05%);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    justify-content: end;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name-form, .email-form, .pass-form, .enter-form {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #676767;
+}
+
+.label-error-signup {
+    font-size: 14px;
+    font-weight: 600;
+    color: #15161b;
+}
+
+.main-paragraph-signup {
+    font-size: 24px;
+    padding-right: 10%;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    top: 150px;
+    padding: 30px;
+    width: 50%;
+
+    span {
+        color: #15161b;
+    }
+}
